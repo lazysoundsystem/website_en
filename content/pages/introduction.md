@@ -25,7 +25,7 @@ Data is fully managed by the _P2P network_; a free currency does not fall under 
 This is the main feature: money is _equally_ co-produced by the members of the community (a.k.a. Web of Trust (WoT)). Such an equality is ensured in both space and time so that newcomers won't be excluded from the money production process [as is so with Bitcoin](http://magazine.ouishare.net/2013/05/bitcoin-human-based-digital-currency/), therefore **it isn't necessary to create yet another "Bitcoin" to have your part of the money**. This co-production implies that members be identified in the software, and thus is a mechanism to prevent people being able to create fake accounts and produce more money than others.
 ### No more CPU race: an energy efficient Blockchain
 
-Classical blockchains uses CPU power for addressing security issues. Even if it works (at least, it seems to), this is a very energy-expensive process. Duniter believes it is possible to have a similar but _more efficient_ _process_, which is not the little brother Proof-of-Stake (the power by the richest). Duniter benefits from a particular resource to reach this goal: **its identified community: its members**. Here is how Duniter Blockchain is built: each block is computed exclusively by members. Which means neither super Google nor any superpower would be able to control the chain. Moreover, Duniter adds a rotation rule, meaning **a member cannot control the blockchain alone**. A group of users could, but this would imply that their computing power be higher than the rest of the members of the network. This is where Web of Trust comes into play: each member is recognized (its identity is trusted - not its actions) if he fits the WoT rules:
+Classical blockchains uses CPU power for addressing security issues. Even if it works (at least, it seems to), this is a very energy-expensive process. Duniter believes it is possible to have a similar but _more efficient_ _process_, which is not the little brother Proof-of-Stake (the power by the richest). Duniter benefits from a particular resource to reach this goal: **its identified community: its members**. Here is how Duniter Blockchain is built: each block is computed exclusively by members. Which means neither super Google nor any superpower would be able to control the chain. Moreover, Duniter adds a rotation rule, meaning **a member cannot control the blockchain alone**. A group of users could, but this would imply that their computing power be higher than the rest of the members of the network. This is where Web of Trust comes into play: each member is recognized (its identity is trusted - not its actions) if they fit the WoT rules:
 
 *   the members must have enough signatures (links) from other members
 *   the member is close enough to any other member
@@ -34,8 +34,8 @@ given the facts that:
 
 *   signatures expire (they are valid for a set amount of time)
 *   a given link must wait a while before being relayed
-*   a member must wait a while between each signature he makes (perhaps a week)
-*   a member has a limit in the number of links he can make to others
+*   a member must wait a while between each signature they make (perhaps a week)
+*   a member has a limit in the number of links they can make to others
 *   links cannot be made in the future
 *   links cannot be made too far in the past
 
